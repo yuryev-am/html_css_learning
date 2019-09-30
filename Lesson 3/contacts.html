@@ -4,31 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Контакты</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <ul>
+    <ul class="main_menu">
         <li><a href="index.html">Главная</a></li>
         <li><a href="catalog.html">Каталог</a></li>
         <li><a href="contacts.html">Контакты</a></li>
     </ul>
     <hr>
-    <h1>Напишите нам</h1>
-    <form action="">
-        <input type="text" placeholder="Ваше имя"><br><br>
-        <input type="text" placeholder="Ваш E-mail"><br><br>
+    <h1 class="page_header">Напишите нам</h1>
+    <form action="" class="input_form">
+        <input type="text" placeholder="Ваше имя"><br>
+        <input type="text" placeholder="Ваш E-mail"><br>
         <p>
-            Пол:
+            Пол:<br>
             <select name="Pol">
                 <option>Мужчина</option>
                 <option>Женщина</option>
             </select>
         </p>
         <br>
-        <input type="text" placeholder="Тема сообщения"><br><br>
-        <textarea cols="30" rows="10" placeholder="Текст сообщения"></textarea><br><br>
-        <input type="submit" value="Отправить">
-        <input type="reset" value="Очистить">
+        <input type="text" placeholder="Тема сообщения"><br>
+        <textarea cols="46" rows="10" placeholder="Текст сообщения"></textarea><br>
+        <input class="button" type="submit" value="Отправить">
+        <input class="button" type="reset" value="Очистить">
     </form>
     <br>
     <p><b>Адрес магазина: Рубежная улица, 168, г.Уфа, Республика Башкортостан, Россия, 450018</b></p>

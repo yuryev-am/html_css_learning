@@ -1,0 +1,83 @@
+html {
+    background-color: #f8f8f8;
+}
+.page_header {
+    color: cadetblue;
+}
+.main_menu {
+    list-style-type: none;
+}
+.main_menu li {    
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 22px;
+    border-width: 1px;
+    border-color: green;
+    border-style: solid; 
+}
+.main_menu li a {
+    text-decoration: none;
+    color: green;
+}
+.product_section {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.brief_product_desc {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.detailed_product_desc {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.product_spec li {
+    color: darkslategray;
+    margin-top: 20px;
+    font-size: 16px;
+    list-style-image: url("img/folder.png");
+}
+
+.product_spec li ul li {
+    color: green;
+    margin-top: 5px;
+    font-size: 14px;
+    list-style-image: url("img/arrow.png");
+}
+.input_form input {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.input_form .button {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.input_form textarea {
+    width: 400px;
+    height: 100px;
+    margin-top: 10px;
+}
+.input_form select {
+    width: 406px;
+    height: 36px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.product_img {
+    outline:  2px solid darkgray;
+    outline-offset: 5px;
+}
