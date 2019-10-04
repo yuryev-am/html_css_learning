@@ -1,4 +1,4 @@
-html {
+body {
     background-color: #f8f8f8;
 }
 .page_header {
@@ -17,6 +17,9 @@ html {
     border-width: 1px;
     border-color: green;
     border-style: solid; 
+}
+.main_menu li:hover {
+    background-color: lightgreen;
 }
 .main_menu li a {
     text-decoration: none;
@@ -59,6 +62,7 @@ html {
     height: 30px;
     margin-top: 10px;
     font-size: 16px;
+    text-transform: capitalize;
 }
 .input_form .button {
     width: 100px;
@@ -70,6 +74,7 @@ html {
     width: 400px;
     height: 100px;
     margin-top: 10px;
+    text-transform: capitalize;
 }
 .input_form select {
     width: 406px;
@@ -80,4 +85,22 @@ html {
 .product_img {
     outline:  2px solid darkgray;
     outline-offset: 5px;
+}
+.product_img:hover {
+    outline:  0px solid darkgray;
+    outline-offset: 5px;
+}
+.email_input:focus {
+    background-color: lightgreen;
+    color: green;
+}
+.product_body p::first-letter {
+    font-style: italic;
+    font-size: 30px;
+}
+table tr:first-child {
+    height: 100px;
+}
+.product_table_section_header {
+    font-weight: 700;
 }
