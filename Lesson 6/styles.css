@@ -116,3 +116,118 @@ body {
 .circle:hover {
     background-color: #212121;
 }
+.featured-new {
+    height: 609px;
+}
+.fn-header {
+    padding-top: 120px;    
+    padding-bottom: 10px;
+}
+.fn-menu {
+    float: left;
+}
+.fn-menu-list {
+    list-style-type: none;
+    float: left;    
+}
+.fn-menu-link {
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+    border-bottom: 1px solid #212121;
+}
+.fn-menu-link:hover {
+    color: #212121;
+}
+.fn-menu-link-active {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 3px solid #212121; 
+}
+.fn_explore_all {
+    float: right;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;  
+    letter-spacing: 3.6px;
+    padding-top: 18px; 
+}
+.fn_items {
+    height: 270px;
+    margin-top: 50px;
+}
+.fn_item {
+    float: left;
+    position: relative;
+    height: 270px;
+    width: 270px;
+}
+.fn_item_left {
+    margin-right: 15px;    
+}
+.fn_item_right {
+    margin-left: 15px;
+}
+.fn_item_center {
+    margin-right: 15px;    
+    margin-left: 15px;
+}
+.fn_item_image {
+    height: 270px;
+    width: 270px;    
+}
+.fn_item_image {
+    position: absolute;
+}
+.fn_item_hover {
+    background-color: white;
+    position: absolute;
+    height: 270px;
+    width: 270px;
+    opacity: 0.9;
+    visibility: hidden;
+}
+.fn_item:hover .fn_item_hover {
+    visibility: visible;
+}
+.fn_item_link {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+}
+.fn_item_hover_icon {
+    width: 48px;
+    height: 48px;
+    margin-left: 111px;
+    margin-top: 62px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 24px;
+    background-color: #ffffff;    
+}
+.fn_item_hover_icon_img {
+    position: relative;
+    left: 18px;
+    top: 14px;
+}
+.fn_item_hover_name {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 19px;
+}
+.fn_item_hover_details {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    width: 206px;
+    margin-left: 32px;
+    margin-top: 23px;
+    line-height: 21.91px;
+}
