@@ -185,6 +185,7 @@ body {
     position: absolute;
 }
 .fn_item_hover {
+    border: 1px solid #9c9c9c;
     background-color: white;
     position: absolute;
     height: 270px;
