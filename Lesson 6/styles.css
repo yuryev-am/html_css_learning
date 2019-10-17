@@ -66,7 +66,7 @@ body {
     text-transform: uppercase;
 }
 .slider-text {
-    margin-top: 283px;
+    padding-top: 283px;
 }
 .slider-content {
     color: #6c6c6c;
@@ -148,7 +148,7 @@ body {
     font-weight: 700;
     border-bottom: 3px solid #212121; 
 }
-.fn_explore_all {
+.fn-explore-all {
     float: right;
     color: #212121;
     font-size: 18px;
@@ -157,34 +157,32 @@ body {
     letter-spacing: 3.6px;
     padding-top: 18px; 
 }
-.fn_items {
+.fn-items {
     height: 270px;
     margin-top: 50px;
 }
-.fn_item {
+.fn-item {
     float: left;
     position: relative;
     height: 270px;
     width: 270px;
 }
-.fn_item_left {
+.fn-item-left {
     margin-right: 15px;    
 }
-.fn_item_right {
+.fn-item-right {
     margin-left: 15px;
 }
-.fn_item_center {
+.fn-item-center {
     margin-right: 15px;    
     margin-left: 15px;
 }
-.fn_item_image {
+.fn-item-image {
     height: 270px;
-    width: 270px;    
+    width: 270px; 
+    position: absolute;       
 }
-.fn_item_image {
-    position: absolute;
-}
-.fn_item_hover {
+.fn-item-hover {
     border: 1px solid #9c9c9c;
     background-color: white;
     position: absolute;
@@ -193,15 +191,15 @@ body {
     opacity: 0.9;
     visibility: hidden;
 }
-.fn_item:hover .fn_item_hover {
+.fn-item:hover .fn-item-hover {
     visibility: visible;
 }
-.fn_item_link {
+.fn-item-link {
     position: absolute;
     width: 270px;
     height: 270px;
 }
-.fn_item_hover_icon {
+.fn-item-hover-icon {
     width: 48px;
     height: 48px;
     margin-left: 111px;
@@ -210,19 +208,19 @@ body {
     border-radius: 24px;
     background-color: #ffffff;    
 }
-.fn_item_hover_icon_img {
+.fn-item-hover-icon-img {
     position: relative;
     left: 18px;
     top: 14px;
 }
-.fn_item_hover_name {
+.fn-item-hover-name {
     color: #212121;
     font-size: 22px;
     font-weight: 700;
     text-align: center;
     margin-top: 19px;
 }
-.fn_item_hover_details {
+.fn-item-hover-details {
     color: #6c6c6c;
     font-size: 14px;
     font-weight: 300;
@@ -235,13 +233,13 @@ body {
 .promo {
     height: 683px;
 }
-.promo_product1 {
+.promo-product1 {
     width: 683px;
     height: 683px;
     float: left;
     background-image: url(img/promo-img1.jpg);
 }
-.promo_product2 {
+.promo-product2 {
     width: 683px;
     height: 683px;
     float: right;
@@ -268,4 +266,113 @@ body {
     font-size: 14px;
     font-weight: 300;
     line-height: 24.04px;    
+}
+.trending {
+    height: 869px;
+    padding-top: 119px;
+    padding-bottom: 119px;
+}
+.trend-title-group {
+    height: 45px;
+}
+.trend-title {
+    float: left;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+.trend-title-explore-all {
+    float: right;
+    margin-top: 18px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;    
+}
+.trend-products {
+    margin-top: 49px;
+}
+.tp-items {
+    height: 370px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.tp-item {
+    float: left;
+    position: relative;
+    height: 370px;
+    width: 370px;
+}
+.tp-item-left {
+    margin-right: 15px;    
+}
+.tp-item-right {
+    margin-left: 15px;
+}
+.tp-item-center {
+    margin-right: 15px;    
+    margin-left: 15px;
+}
+.tp-item-image {
+    height: 370px;
+    width: 370px; 
+    position: absolute;       
+}
+.hot-deal-slider {
+    height: 800px;
+    background-image: url(img/slider_hot_deal.jpg);
+    position: relative;
+}
+.slider-trending-hd {
+    color: #e53935;
+}
+.exclusive-product {
+    height: 570px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.exclusive-product1 {
+    height: 570px;
+    width: 570px;
+    background-image: url(img/product-1-lg.jpg);
+    position: absolute;
+}
+.exclusive-text {
+    margin-left: 31px;
+    margin-top: 186px;
+}
+.exclusive-items {
+    float: right;
+    width: 600px;
+    height: 570px;
+}
+.exclusive-item {
+    float: left;
+    margin-left: 30px;
+    width: 270px;
+    height: 270px;
+}
+.exclusive-item-bottom {
+    margin-top: 30px;
+}
+.mobile-app {
+    background-image: url(img/back-img.jpg);
+    height: 516px;
+}
+.m-app-text {
+    padding-top: 125px;
+}
+.m-app-h2 {
+    width: 480px;
+}
+.m-app-content {
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;    
+}
+.m-app-tag {
+    color: #6c6c6c;
+}
+.m-app-button {
+    
 }
