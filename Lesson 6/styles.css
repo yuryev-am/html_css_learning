@@ -232,3 +232,40 @@ body {
     margin-top: 23px;
     line-height: 21.91px;
 }
+.promo {
+    height: 683px;
+}
+.promo_product1 {
+    width: 683px;
+    height: 683px;
+    float: left;
+    background-image: url(img/promo-img1.jpg);
+}
+.promo_product2 {
+    width: 683px;
+    height: 683px;
+    float: right;
+    background-image: url(img/promo-img.jpg);
+}
+.promo-text {
+    margin-top: 228px;
+    margin-left: 98px;
+}
+.promo-tag {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;    
+}
+.promo-name {
+    margin-top: 18px;
+}
+.promo-details {
+    margin-top: 24px;
+    margin-bottom: 34px;
+    width: 374px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.04px;    
+}
