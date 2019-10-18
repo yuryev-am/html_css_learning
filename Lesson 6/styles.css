@@ -93,6 +93,11 @@ body {
     display: inline-block;
     letter-spacing: 3.6px;
 }
+.arrow {
+    float: right;
+    margin-right: 18px;
+    margin-top: 12px;    
+}
 .pagination {
     position: absolute;
     width: 1170px;
