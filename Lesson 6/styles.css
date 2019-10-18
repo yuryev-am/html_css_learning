@@ -373,6 +373,104 @@ body {
 .m-app-tag {
     color: #6c6c6c;
 }
-.m-app-button {
-    
+.footer {
+    background-color: #f7f7f7;
+    padding-top: 120px;
+    padding-bottom: 39px;
+}
+.footer-top {
+    height: 150px;
+}
+.footer-top-left {
+    width: 221px;
+    height: 150px;
+    float: left;
+}
+.footer-header {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;    
+}
+.footer-links {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 24px;    
+}
+.footer-top-center {
+    float: left;
+    width: 422px;
+    height: 150px;
+    margin-left: 80px;    
+}
+.footer-top-right {
+    float: right;
+    width: 370px;
+    height: 150px;    
+}
+
+.footer-bottom {
+    height: 30px;
+    margin-top: 69px;
+}
+.copyright {
+    float: left;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;    
+}
+.social-lnk {
+    float: left;
+    margin-left: 158px;
+}
+.terms {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    float: right; 
+    text-decoration: none;   
+}
+.footer-link-item {
+    list-style-type: none;
+}
+.footer-link-item a {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase; 
+    text-decoration: none;
+}
+.footer-links-list {
+    margin-top: 24px;
+    float: left;
+}
+.footer-links-list-right {
+    margin-top: 24px;
+    float: right;    
+}
+.email_input {
+    width: 370px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    float: left;
+    margin-top: 26px;   
+}
+.email-img {
+    float: right;
+    position: relative;
+    right: 14px;
+    bottom: 33px;
 }
