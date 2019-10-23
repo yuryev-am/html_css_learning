@@ -93,6 +93,12 @@ body {
     display: inline-block;
     letter-spacing: 3.6px;
 }
+.button:hover {
+    background-color: lightgrey;
+}
+.button:active {
+    box-shadow: 0 0px 0px 0px rgba(33, 33, 33, 0.35);
+}
 .arrow {
     float: right;
     margin-right: 18px;
@@ -160,7 +166,8 @@ body {
     font-weight: 700;
     text-transform: uppercase;  
     letter-spacing: 3.6px;
-    padding-top: 18px; 
+    padding-top: 18px;
+    text-decoration: none; 
 }
 .fn-items {
     height: 270px;
@@ -292,7 +299,8 @@ body {
     color: #212121;
     font-size: 18px;
     font-weight: 700;
-    text-transform: uppercase;    
+    text-transform: uppercase;
+    text-decoration: none;    
 }
 .trend-products {
     margin-top: 49px;
