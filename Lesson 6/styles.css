@@ -316,6 +316,9 @@ body {
     height: 370px;
     width: 370px;
 }
+.tp-item:hover {
+    outline: 1px solid black;
+}
 .tp-item-left {
     margin-right: 15px;    
 }
